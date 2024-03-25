@@ -9,6 +9,11 @@
 #include <boost/asio/connect.hpp>
 #include <boost/asio/ip/tcp.hpp>
 #include <string>
+//#include <api/peer_connection_interface.h>
+//#include <api/scoped_refptr.h>
+//#include <rtc_base/ref_counted_object.h>
+//#include <api/data_channel_interface.h>
+
 
 namespace beast = boost::beast;
 namespace websocket = beast::websocket;
@@ -36,6 +41,13 @@ int main()
             std::string sdpString = sdp;
             });*/
 
+        
+      /*  webrtc::DataChannelInit config;
+        rtc::scoped_refptr<webrtc::PeerConnectionInterface> connection;
+        auto result = connection->CreateDataChannelOrError("stephentest", &config);
+        if (!result.ok()) {
+            std::cerr << "CreateDataChannel failed." << std::endl;
+        }*/
 
         
         net::io_context ioc;
