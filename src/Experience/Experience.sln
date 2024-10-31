@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataChannelServer", "DataChannelServer\DataChannelServer.vcxproj", "{FB09A080-4725-42BE-9A26-D332CD8CDB9B}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataChannelClient", "DataChannelClient\DataChannelClient.vcxproj", "{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComandLineArgs", "ComandLineArgs\ComandLineArgs.vcxproj", "{DD871931-D6FB-4AA3-9F9B-0EA9CEE5A010}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSLServer", "SSLServer\SSLServer.vcxproj", "{28F7693F-7584-4653-9919-C2E34661DF26}"
@@ -21,22 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Debug|x64.ActiveCfg = Debug|x64
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Debug|x64.Build.0 = Debug|x64
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Debug|x86.ActiveCfg = Debug|Win32
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Debug|x86.Build.0 = Debug|Win32
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Release|x64.ActiveCfg = Release|x64
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Release|x64.Build.0 = Release|x64
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Release|x86.ActiveCfg = Release|Win32
-		{FB09A080-4725-42BE-9A26-D332CD8CDB9B}.Release|x86.Build.0 = Release|Win32
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Debug|x64.ActiveCfg = Debug|x64
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Debug|x64.Build.0 = Debug|x64
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Debug|x86.ActiveCfg = Debug|Win32
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Debug|x86.Build.0 = Debug|Win32
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Release|x64.ActiveCfg = Release|x64
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Release|x64.Build.0 = Release|x64
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Release|x86.ActiveCfg = Release|Win32
-		{4BBDB3B2-5292-41A1-BD59-935A3BD18F2D}.Release|x86.Build.0 = Release|Win32
 		{DD871931-D6FB-4AA3-9F9B-0EA9CEE5A010}.Debug|x64.ActiveCfg = Debug|x64
 		{DD871931-D6FB-4AA3-9F9B-0EA9CEE5A010}.Debug|x64.Build.0 = Debug|x64
 		{DD871931-D6FB-4AA3-9F9B-0EA9CEE5A010}.Debug|x86.ActiveCfg = Debug|Win32
